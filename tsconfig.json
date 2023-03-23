@@ -3,9 +3,11 @@
   "compilerOptions": {
     "noEmit": true,
     "strict": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": ["dom"]
   },
   "include": ["./**/*"],
   "exclude": ["node_modules", "dist"]
